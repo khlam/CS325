@@ -1,0 +1,20 @@
+Kin-Ho Lam Summer 2017 
+CS 325 Assignment 2
+Stooge Sort Python
+
+Run the following makefile commands in terminal.
+This code is tested and working on flip.engr.oregonstate.edu
+
+> Commands  			   > Description
+
+make stoogeSort .......... Run Stooge Sort (must have data.txt in current directory):
+
+make data.txt ............ Create the default data.txt with the values in assignment 1	
+
+make printOut ............ Print the contents of stooge.out
+
+make genRand ............. Clean the directory, generate data.txt files with random arrays and run stoogeSort
+
+make clean ............... Clean the directory (Delete all data.txt and .out files)
+
+make run ................. Generate data.txt, run stoogeSort, print the result

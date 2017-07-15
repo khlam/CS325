@@ -1,0 +1,21 @@
+Kin-Ho Lam Summer 2017 
+CS 325 Assignment 1
+Merge and Insertion Sort Python
+
+Run the following makefile commands in terminal.
+This code is tested and working on flip.engr.oregonstate.edu
+
+Run Merge Sort (must have data.txt in current directory):
+	make mergeSort
+
+Run Insertion Sort (must have data.txt in current directory):
+	make insertSort
+
+Clean directory, Generate data.txt (the example file as it appeared in the instructions), run insertSort.py and mergeSort.py:
+	make run
+
+Generate random array files and run tests, output time into .csv files:
+	make genRand
+
+Clean directory:
+	make clean
